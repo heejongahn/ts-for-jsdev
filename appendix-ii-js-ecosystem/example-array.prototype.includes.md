@@ -2,17 +2,17 @@
 
 TC39 프로세스가 구체적으로 어떻게 진행되는지 좀 더 구체적인 감각을 갖기 위해, 실제 예시를 들어 살펴보자. 오늘의 초대 손님은 `Array.prototype.includes` 메소드다. 이 메소드는 이름이 암시하듯 배열에 어떤 원소가 들어있는지 검사한다. 
 
-매우 흔한 요구사항인 것을 감안하면 놀랍게도 이 메소드는 2016년이 되어서야 표준 – ECMAScript 2016 – 에 추가되었다. 이 프로포절의 챔피언은 Google의 Domenic Denicola이 맡았고, [2014년 4월 9일 회의](http://tc39.github.io/tc39-notes/2014-04_apr-9.html#45-arrayprototypecontains)에서 처음 언급되었다.
+매우 흔한 요구사항인 것을 감안하면 놀랍게도 이 메소드는 2016년이 되어서야 표준 – ECMAScript 2016 – 에 추가되었다. 이 프러포절의 챔피언은 Google의 Domenic Denicola이 맡았고, [2014년 4월 9일 회의](http://tc39.github.io/tc39-notes/2014-04_apr-9.html#45-arrayprototypecontains)에서 처음 언급되었다.
 
 ### **0단계: 허수아비 \(stage 0: strawman\)**
 
-앞서 언급된 2014년 4월 9일 회의록에서 Rick Waldron은 ES6에 추가될 예정인 String.prototype.contains 와 비슷한 메소드 Array.prototype.contains 를 배열 프로토타입에 추가하는 것이 어떻겠냐는 제안을 제시한다. 메일링 리스트에서 논의되던 이 프로포절은 이로서 0단계 프로포절이 된다.
+앞서 언급된 2014년 4월 9일 회의록에서 Rick Waldron은 ES6에 추가될 예정인 String.prototype.contains 와 비슷한 메소드 Array.prototype.contains 를 배열 프로토타입에 추가하는 것이 어떻겠냐는 제안을 제시한다. 메일링 리스트에서 논의되던 이 프러포절은 이로서 0단계 프러포절이 된다.
 
 ### **1단계: 제안 \(stage 1: proposal\)**
 
-이 프로포절은 [2014년 7월 31일 회의](http://tc39.github.io/tc39-notes/2014-07_jul-31.html)에서 다음으로 등장한다. 동작에 대한 간단한 논의 \(인자로 받는 게 배열의 원소여야 하는지 서브 배열이어야 하는지\)와 네이밍에 대한 논의 후에 1단계 승격이 결정된다. 이후 논의에서 상대적으로 간단한 제안인 만큼 프로세스를 TC39 회의 밖에서 비동기적으로 진행하고 싶다는 의견이 나오는데, Allen Wirfs-Brock와 Mark Miller에 의해 기각된다.
+이 프러포절은 [2014년 7월 31일 회의](http://tc39.github.io/tc39-notes/2014-07_jul-31.html)에서 다음으로 등장한다. 동작에 대한 간단한 논의 \(인자로 받는 게 배열의 원소여야 하는지 서브 배열이어야 하는지\)와 네이밍에 대한 논의 후에 1단계 승격이 결정된다. 이후 논의에서 상대적으로 간단한 제안인 만큼 프로세스를 TC39 회의 밖에서 비동기적으로 진행하고 싶다는 의견이 나오는데, Allen Wirfs-Brock와 Mark Miller에 의해 기각된다.
 
-[1단계 프로포절로 승격된 시점의 저장소](https://github.com/tc39/Array.prototype.includes/tree/4fafe65eaa57e6da65ecbe48aa3978b199087645)를 보면, 이 프로포절이 필요한 이유와 API, 그리고 많이들 궁금해 할 법한 질문과 사용 예시 모두가 `README.md` 에 정리되어 있으며, 데모 구현 또한 저장소에 포함되어 있다. 승격에 필요한 요건의 체크리스트는 [6번 이슈](https://github.com/tc39/Array.prototype.includes/issues/6)에서 볼 수 있다.
+[1단계 프러포절로 승격된 시점의 저장소](https://github.com/tc39/Array.prototype.includes/tree/4fafe65eaa57e6da65ecbe48aa3978b199087645)를 보면, 이 프러포절이 필요한 이유와 API, 그리고 많이들 궁금해 할 법한 질문과 사용 예시 모두가 `README.md` 에 정리되어 있으며, 데모 구현 또한 저장소에 포함되어 있다. 승격에 필요한 요건의 체크리스트는 [6번 이슈](https://github.com/tc39/Array.prototype.includes/issues/6)에서 볼 수 있다.
 
 {% hint style="info" %}
 이후 이 제안은 [2014년 11월 18일 회의](http://tc39.github.io/tc39-notes/2014-11_nov-18.html#44-arrayprototypecontains-breaks-mootools)의 안건으로 올라온다. 이 안건에서는 `Array.prototype.contains` 가 표준에 포함되면 이를 구현한 브라우저에서 [Mootools](https://mootools.net/)라는 라이브러리를 사용하고 있는 기존 웹사이트가 깨질 것이라는 문제가 제기된다. 
@@ -22,7 +22,7 @@ TC39 프로세스가 구체적으로 어떻게 진행되는지 좀 더 구체적
 
 ### **2단계: 초고 \(stage 2: draft\)**
 
-이름을 바꾸기로 결정한 논의의 이틀 후인 [2014년 11월 20일](http://tc39.github.io/tc39-notes/2014-11_nov-20.html#55-arrayprototypeincludes-proposal-to-move-to-stage-2), 이 프로포절을 2단계로 승격시키는 안건이 올라오고, 통과된다. 1단계와 마찬가지로 [2단계로 승격된 시점의 저장소](https://github.com/tc39/Array.prototype.includes/tree/6e3b78c927aeda20b9d40e81303f9d44596cd904)와 [체크리스트를 담은 이슈](https://github.com/tc39/Array.prototype.includes/issues/10)를 깃헙 저장소에서 확인할 수 있다.
+이름을 바꾸기로 결정한 논의의 이틀 후인 [2014년 11월 20일](http://tc39.github.io/tc39-notes/2014-11_nov-20.html#55-arrayprototypeincludes-proposal-to-move-to-stage-2), 이 프러포절을 2단계로 승격시키는 안건이 올라오고, 통과된다. 1단계와 마찬가지로 [2단계로 승격된 시점의 저장소](https://github.com/tc39/Array.prototype.includes/tree/6e3b78c927aeda20b9d40e81303f9d44596cd904)와 [체크리스트를 담은 이슈](https://github.com/tc39/Array.prototype.includes/issues/10)를 깃허브 저장소에서 확인할 수 있다.
 
 저장소를 확인해보면 스펙 초안은 사실 1단계가 되는 시점에서 이미 준비되어 있다. 2단계의 또다른 요구사항인 \(예를 들어 V8에서 `--harmony-array-includes` 등의 플래그에 의해 제어되는\) 실험적인 구현이 완성된 시점에서 안건에 올라온 것으로 보인다. 앞으로 패치가 좀 더 있을 예정이므로 3단계로 올릴 수는 없다는 내용이 언급된다. 
 
@@ -34,5 +34,5 @@ TC39 프로세스가 구체적으로 어떻게 진행되는지 좀 더 구체적
 
 ### **4단계: 완료됨 \(stage 4: finished\)**
 
-[2015년 11월 17일 회의](http://tc39.github.io/tc39-notes/2015-11_nov-17.html#arrayprototypeincludes)에서 Array.prototype.includes 메소드 프로포절은 최종적으로 4단계로 승격된다. 이 프로포절은 2016년 6월에 발표된 ECMAScript 2016 표준에 거듭제곱 연산자\(\*\*\)와 함께 언어의 표준 기능으로 포함되어 배포된다.
+[2015년 11월 17일 회의](http://tc39.github.io/tc39-notes/2015-11_nov-17.html#arrayprototypeincludes)에서 Array.prototype.includes 메소드 프러포절은 최종적으로 4단계로 승격된다. 이 프러포절은 2016년 6월에 발표된 ECMAScript 2016 표준에 거듭제곱 연산자\(\*\*\)와 함께 언어의 표준 기능으로 포함되어 배포된다.
 

@@ -36,7 +36,7 @@ const arr = [1, 2, 3];
 logThings(...[1, 2, 3]);
 ```
 
-배열뿐만이 아닌 객체에 대해서도 비슷하게 나머지/전개 연산자를 추가하는 [`proposal-object-rest-spread` 프로포절](https://github.com/tc39/proposal-object-rest-spread)이 진행중이며, 2017년 12월 기준으 3단계에 있다.
+배열뿐만이 아닌 객체에 대해서도 비슷하게 나머지/전개 연산자를 추가하는 [`proposal-object-rest-spread` 프러포절](https://github.com/tc39/proposal-object-rest-spread)이 진행중이며, 2017년 12월 기준으 3단계에 있다.
 
 ```javascript
 const { x, y, ...z } = { x: 1, y: 2, a: 3, b: 4 };
