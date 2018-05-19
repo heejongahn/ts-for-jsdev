@@ -16,7 +16,7 @@ description: '타입스크립트가 제공하는 정적 타입 분석은 무엇�
 
 정적 타입 시스템은 **프로그램이 실제로 실행되기 전에 상당수의 오류를 잡아낼 수 있다**. 같은 종류의 오류가 동적 타입 언어에서는 코드 리뷰, 심지어는 실제 배포가 일어날 때 까지도 안 발견되는 경우도 잦다. 소프트웨어 개발 파이프라인에서는 오류가 늦게 발견 될수록 더 큰 금전적, 시간적 비용을 치루어야 하므로 이는 매우 큰 이점이다.
 
-ICSE\(International Conference on Software Engineering\) 2017에 발표 된 “[To Type or Not to Type: Quantifying Detectable Bugs in JavaScript](http://earlbarr.com/publications/typestudy.pdf)”이란 논문은 깃헙\(Github\)의 공개된 버그를 이용해 정적 타입 시스템의 효과에 대해 다룬다.
+ICSE\(International Conference on Software Engineering\) 2017에 발표 된 “[To Type or Not to Type: Quantifying Detectable Bugs in JavaScript](http://earlbarr.com/publications/typestudy.pdf)”이란 논문은 깃허브\(Github\)의 공개된 버그를 이용해 정적 타입 시스템의 효과에 대해 다룬다.
 
 연구진은 실험군으로 설정한 자바스크립트 코드의 버그 중 약 15% 정도는 정적 타입 시스템이 있었다면 커밋조차 되기 전에 잡혔을 것이라 결론짓는다. **실사용자가 맞닥뜨리는 버그 중 15%를 사전에 예방할 수 있다**는 인상적인 결과에 Microsoft의 한 엔지니어링 매니저는 다음과 같이 반응했다 한다.
 

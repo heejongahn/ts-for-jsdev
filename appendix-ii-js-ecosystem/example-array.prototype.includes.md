@@ -22,7 +22,7 @@ TC39 프로세스가 구체적으로 어떻게 진행되는지 좀 더 구체적
 
 ### **2단계: 초고 \(stage 2: draft\)**
 
-이름을 바꾸기로 결정한 논의의 이틀 후인 [2014년 11월 20일](http://tc39.github.io/tc39-notes/2014-11_nov-20.html#55-arrayprototypeincludes-proposal-to-move-to-stage-2), 이 프로포절을 2단계로 승격시키는 안건이 올라오고, 통과된다. 1단계와 마찬가지로 [2단계로 승격된 시점의 저장소](https://github.com/tc39/Array.prototype.includes/tree/6e3b78c927aeda20b9d40e81303f9d44596cd904)와 [체크리스트를 담은 이슈](https://github.com/tc39/Array.prototype.includes/issues/10)를 깃헙 저장소에서 확인할 수 있다.
+이름을 바꾸기로 결정한 논의의 이틀 후인 [2014년 11월 20일](http://tc39.github.io/tc39-notes/2014-11_nov-20.html#55-arrayprototypeincludes-proposal-to-move-to-stage-2), 이 프로포절을 2단계로 승격시키는 안건이 올라오고, 통과된다. 1단계와 마찬가지로 [2단계로 승격된 시점의 저장소](https://github.com/tc39/Array.prototype.includes/tree/6e3b78c927aeda20b9d40e81303f9d44596cd904)와 [체크리스트를 담은 이슈](https://github.com/tc39/Array.prototype.includes/issues/10)를 깃허브 저장소에서 확인할 수 있다.
 
 저장소를 확인해보면 스펙 초안은 사실 1단계가 되는 시점에서 이미 준비되어 있다. 2단계의 또다른 요구사항인 \(예를 들어 V8에서 `--harmony-array-includes` 등의 플래그에 의해 제어되는\) 실험적인 구현이 완성된 시점에서 안건에 올라온 것으로 보인다. 앞으로 패치가 좀 더 있을 예정이므로 3단계로 올릴 수는 없다는 내용이 언급된다. 
 

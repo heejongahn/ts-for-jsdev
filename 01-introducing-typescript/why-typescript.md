@@ -26,7 +26,7 @@ description: 자바스크립트에 정적 타이핑을 도입하려는 수많은
 
 ### **트레이드오프**
 
-타입스크립트 깃헙 위키에는 [TypeScript Design Goals](https://github.com/Microsoft/TypeScript/wiki/TypeScript-Design-Goals)라는 페이지가 있다. 이 문서는 타입스크립트를 만들며 목표로 삼았던 점\(Goals\)과 그렇지 않은 점\(Non-goals\)을 담고 있는데, 목표가 아닌 것들 중 흥미로운 항목이 있다.
+타입스크립트 깃허브 위키에는 [TypeScript Design Goals](https://github.com/Microsoft/TypeScript/wiki/TypeScript-Design-Goals)라는 페이지가 있다. 이 문서는 타입스크립트를 만들며 목표로 삼았던 점\(Goals\)과 그렇지 않은 점\(Non-goals\)을 담고 있는데, 목표가 아닌 것들 중 흥미로운 항목이 있다.
 
 > 안전하고 “증명 가능하게 올바른” 타입 시스템 적용하기. 그 대신 정확성과 생산성 사이의 균형을 노린다. _Apply a sound or "provably correct" type system. Instead, strike a balance between correctness and productivity._
 
@@ -82,7 +82,7 @@ function getFirstThreeCharsSafe(arg: { x: string | null }) {
 
 Visual Studio Code\(이하 VS Code\)는 Microsoft에 의해 개발되어 2015년 공개된 통합개발환경\(Integrated Development Environment, IDE\)이다. [The State of JavaScript 2017 통계](https://octoverse.github.com/)에 따르면 **응답자 중 가장 많은 수인 약 30% 가량이 VS Code를 사용한다**. Atom, Sublime Text 등의 다른 에디터에 비해 정식 출시가 가장 늦다는 점을 감안하면 상당히 고무적인 결과다. 
 
-또한 VS Code는 수많은 활발한 컨트리뷰터를 갖고 있다. Octoverse 2017에 따르면 **2017년 깃헙 전체 저장소 중 가장 많은 사람이** **VS Code의 깃헙 저장소에 기여했으며, 해당 저장소에서는 전체 저장소 중 4번째로 많은 논의가 이루어졌다**고 한다.
+또한 VS Code는 수많은 활발한 컨트리뷰터를 갖고 있다. Octoverse 2017에 따르면 **2017년 깃허브 전체 저장소 중 가장 많은 사람이** **VS Code의 깃허브 저장소에 기여했으며, 해당 저장소에서는 전체 저장소 중 4번째로 많은 논의가 이루어졌다**고 한다.
 
 이렇게 많은 이들의 사랑을 받는 VS Code는 모든 언어에 사용할 수 있는 IDE를 지향한다. 하지만 그 중에서도 VS Code와 타입스크립트가 갖는 관계는 특히 각별하다. 
 
