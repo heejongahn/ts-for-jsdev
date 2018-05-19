@@ -88,9 +88,9 @@ Visual Studio Code\(이하 VS Code\)는 Microsoft에 의해 개발되어 2015년
 
 ![VS Code &#xACF5;&#xC2DD; &#xD648;&#xD398;&#xC774;&#xC9C0;&#xC758; &#xC18C;&#xAC1C; &#xC774;&#xBBF8;&#xC9C0;. &#xD0C0;&#xC785;&#xC2A4;&#xD06C;&#xB9BD;&#xD2B8; &#xCF54;&#xB4DC;&#xAC00; &#xC608;&#xC2DC;&#xB85C; &#xB744;&#xC6CC;&#xC838; &#xC788;&#xB2E4;.](../.gitbook/assets/vscode-main.png)
 
-저장소에서 가장 먼저 눈에 띄는 점은 코드 90% 이상이 타입스크립트로 작성되었단 점이다. 즉 **VS Code 개발팀은 타입스크립트 개발 환경을 개선할 만한 아주 강한 인센티브를 가진다.** 실제로 현 시점에서 VS Code는 다른 어떤 툴보다도 강력한 타입스크립트 툴링을 갖고 있다. 그 때문일까? VS Code의 릴리즈 노트에서는 자바스크립트/타입스크립트 관련 변경 및 개선 사항이 유독 많이 눈에 띈다.
+저장소에서 가장 먼저 눈에 띄는 점은 코드 90% 이상이 타입스크립트로 작성되었단 점이다. 즉 **VS Code 개발팀은 타입스크립트 개발 환경을 개선할 만한 아주 강한 인센티브를 가진다.** 실제로 현 시점에서 VS Code는 다른 어떤 툴보다도 강력한 타입스크립트 툴링을 갖고 있다. 그 때문일까? VS Code의 릴리스 노트에서는 자바스크립트/타입스크립트 관련 변경 및 개선 사항이 유독 많이 눈에 띈다.
 
-뿐만 아니라, [타입스크립트](https://blogs.msdn.microsoft.com/typescript/)와 [VS Code](https://code.visualstudio.com/updates/)의 릴리즈 노트를 나란히 보면 종종 동일한 내용이 등장하는 것을 확인할 수 있다. 타입 정의 자동 설치 기능이 그 예시다. 이 기능은 2017년 10월 31일 [타입스크립트 2.6 릴리즈 노트](https://blogs.msdn.microsoft.com/typescript/2017/10/31/announcing-typescript-2-6/)에서 에디터가 곧 지원할 것이라는 코멘트 및 동작하는 버전의 gif 이미지와 함께 언급되었다. 그리고 얼마 후 2017년 11월 8일 [VS Code 1.18 버전 릴리즈](https://code.visualstudio.com/updates/v1_18)에 포함되었다. 
+뿐만 아니라, [타입스크립트](https://blogs.msdn.microsoft.com/typescript/)와 [VS Code](https://code.visualstudio.com/updates/)의 릴리스 노트를 나란히 보면 종종 동일한 내용이 등장하는 것을 확인할 수 있다. 타입 정의 자동 설치 기능이 그 예시다. 이 기능은 2017년 10월 31일 [타입스크립트 2.6 릴리스 노트](https://blogs.msdn.microsoft.com/typescript/2017/10/31/announcing-typescript-2-6/)에서 에디터가 곧 지원할 것이라는 코멘트 및 동작하는 버전의 gif 이미지와 함께 언급되었다. 그리고 얼마 후 2017년 11월 8일 [VS Code 1.18 버전 릴리스](https://code.visualstudio.com/updates/v1_18)에 포함되었다.
 
 이렇듯, Microsoft가 관리하는 이 두 프로젝트는 아주 긴밀하게 연결되어 있다. 이 둘의 상생관계는 앞으로도 굳건히 지속될 것이며, 두 프로젝트와 그들을 둘러싼 생태계에게 긍정적인 영향을 끼칠 것이다.
 
