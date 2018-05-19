@@ -1,7 +1,3 @@
----
-description: 최신 ECMAScript에서의 객체 리터럴 변경사항에 대해 다룬다.
----
-
 # 2.2.3 객체 리터럴 변경사항
 
 ### **트레일링 콤마 \(trailing comma\)**
