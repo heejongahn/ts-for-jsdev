@@ -1,7 +1,7 @@
 # Table of contents
 
 * [자바스크립트 개발자를 위한 타입스크립트](README.md)
-* [들어가며](undefined-1.md)
+* [들어가며](intro.md)
 
 ## 01 타입스크립트 소개
 
@@ -28,11 +28,11 @@
 * [2.4 템플릿 리터럴](02-ecmascript/template-literal/README.md)
   * [2.4.1 멀티라인 문자열](02-ecmascript/template-literal/multiline-string.md)
   * [2.4.2 문자열 치환](02-ecmascript/template-literal/string-substitution.md)
-* [2.5 원소 순회](02-ecmascript/element-enumration/README.md)
-  * [2.5.1 forEach 메소드](02-ecmascript/element-enumration/foreach.md)
-  * [2.5.2 for-of 문법](02-ecmascript/element-enumration/for-of.md)
-  * [2.5.3 이터레이터 프로토콜](02-ecmascript/element-enumration/iterator-protocol.md)
-  * [2.5.4 이터러블 프로토콜](02-ecmascript/element-enumration/iterable-protocol.md)
+* [2.5 원소 순회](02-ecmascript/element-enumeration/README.md)
+  * [2.5.1 forEach 메소드](02-ecmascript/element-enumeration/foreach.md)
+  * [2.5.2 for-of 문법](02-ecmascript/element-enumeration/for-of.md)
+  * [2.5.3 이터레이터 프로토콜](02-ecmascript/element-enumeration/iterator-protocol.md)
+  * [2.5.4 이터러블 프로토콜](02-ecmascript/element-enumeration/iterable-protocol.md)
 * [2.6 비동기 처리](02-ecmascript/handling-asynchronous/README.md)
   * [2.6.1 프로미스](02-ecmascript/handling-asynchronous/promises.md)
   * [2.6.2 Async / Await](02-ecmascript/handling-asynchronous/async-await.md)
@@ -69,27 +69,27 @@
 
 ## 05 타입의 호환성
 
-* [들어가며 \(6월 4일 공개\)](05-type-compatibility/6-4.md)
+* [들어가며 \(6월 4일 공개\)](05-type-compatibility/intro.md)
 
 ## 06 타입 시스템 심화
 
-* [들어가며 \(6월 18일 공개\)](06-type-system-deepdive/6-18.md)
+* [들어가며 \(6월 18일 공개\)](06-type-system-deepdive/intro.md)
 
 ## 07 고급 타입
 
-* [들어가며 \(7월 2일 공개\)](07-advanced-types/7-2.md)
+* [들어가며 \(7월 2일 공개\)](07-advanced-types/intro.md)
 
 ## 08 모듈과 네임스페이스
 
-* [들어가며 \(7월 16일 공개\)](08-modules-and-namespaces/7-16.md)
+* [들어가며 \(7월 16일 공개\)](08-modules-and-namespaces/intro.md)
 
 ## 09 실제 프로젝트에서 사용하기
 
-* [들어가며 \(7월 30일 공개\)](09-real-world-projects/7-30.md)
+* [들어가며 \(7월 30일 공개\)](09-real-world-projects/intro.md)
 
 ## 10 유용한 라이브러리 소개
 
-* [들어가며 \(8월 13일 공개\)](10-libraries/8-13.md)
+* [들어가며 \(8월 13일 공개\)](10-libraries/intro.md)
 * [맺으며](10-libraries/outro.md)
 
 ## 부록 II : 자바스크립트 언어 생태계
