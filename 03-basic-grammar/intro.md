@@ -11,7 +11,7 @@ description: 3장에선 타입스크립트의 기초적인 문법과 타입 시�
 ```typescript
 const areYouCool: boolean = true;
 const answer: number = 42;
-const typescript: string = “great”;
+const typescript: string = "great";
 const greetings: string = `
 Hello, Readers!
 Welcome to TypeScript.
