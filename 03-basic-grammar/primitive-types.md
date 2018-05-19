@@ -18,8 +18,8 @@ const doesJavaScriptHasTypes: boolean = false;
 숫자를 나타내는 타입이다. 자바스크립트에서는 정수, 부동 소수점 등의 구분이 따로 없고 모든 수가 [IEEE754](https://ko.wikipedia.org/wiki/IEEE_754) 표준을 따르는 부동소수점이고, 타입스크립트의 `number` 타입도 마찬가지다.
 
 ```typescript
-const yourScore = 100;
-const ieee754IsAwesome = 0.1 + 0.2; // 0.30000000000000004
+const yourScore: number = 100;
+const ieee754IsAwesome: number = 0.1 + 0.2; // 0.30000000000000004
 ```
 
 ### **문자열**
@@ -27,7 +27,7 @@ const ieee754IsAwesome = 0.1 + 0.2; // 0.30000000000000004
 문자열을 나타내는 타입이다. ES6 템플릿 리터럴 역시 `string` 타입의 값이다.
 
 ```typescript
-const authorName = '안희종';
+const authorName: string = '안희종';
 const toReaders: string = `
 책을 읽어주셔서 감사합니다.
 도움이 되었으면 좋겠습니다.
