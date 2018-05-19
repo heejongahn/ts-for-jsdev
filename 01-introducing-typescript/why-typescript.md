@@ -111,15 +111,15 @@ Google Trends를 통해 [근 5년간의 “타입스크립트” 주제의 시�
 |   | Flow | TypeScript |
 | --- | --- | --- | --- | --- | --- | --- |
 | Stack Overflow 질문 개수 | [1,132](https://stackoverflow.com/questions/tagged/flowtype) \(flowtype 태그\) | [45,315](https://stackoverflow.com/questions/tagged/typescript) \(typescript 태그\) |
-| Github 저장소 이슈 개수 | [1,884 Open / 2,472 Closed](https://github.com/facebook/flow/issues) | [2,503 Open / 12,782 Closed](https://github.com/Microsoft/TypeScript/issues) |
-| Github 저장소 PR 개수 | [106 Open / 1,223 Closed](https://github.com/facebook/flow/pulls) | [121 Open / 5,875 Closed](https://github.com/Microsoft/TypeScript/pulls) |
+| GitHub 저장소 이슈 개수 | [1,884 Open / 2,472 Closed](https://github.com/facebook/flow/issues) | [2,503 Open / 12,782 Closed](https://github.com/Microsoft/TypeScript/issues) |
+| GitHub 저장소 PR 개수 | [106 Open / 1,223 Closed](https://github.com/facebook/flow/pulls) | [121 Open / 5,875 Closed](https://github.com/Microsoft/TypeScript/pulls) |
 | npm 월별 다운로드 수 | [852,756](https://www.npmjs.com/package/flow-bin) | [8,393,830 ](https://www.npmjs.com/package/typescript) |
 | 외부 타입 정의 개수 | [429](https://github.com/flowtype/flow-typed/tree/master/definitions/npm) | [4,010](https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types) |
 | 내부 타입 정의 개수 | [~2,000](https://github.com/search?utf8=%E2%9C%93&q=flow+extension%3A.flow+size%3A%3E10) | N/A |
 
-Stack Overflow 질문 개수나 Github의 이슈 및 풀 리퀘스트 개수, npm 월별 다운로드 수 모두 타입스크립트가 압도적으로 많다. 특히 Github 이슈 및 풀 리퀘스트의 경우 전체 양이 크게 차이나는데에 비해 열려 있는 이슈 및 풀 리퀘스트의 차이는 상대적으로 적다는 점에서 타입스크립트 쪽이 더 활발하게 처리되고 있음을 짐작할 수 있다.
+Stack Overflow 질문 개수나 GitHub의 이슈 및 풀 리퀘스트 개수, npm 월별 다운로드 수 모두 타입스크립트가 압도적으로 많다. 특히 GitHub 이슈 및 풀 리퀘스트의 경우 전체 양이 크게 차이나는데에 비해 열려 있는 이슈 및 풀 리퀘스트의 차이는 상대적으로 적다는 점에서 타입스크립트 쪽이 더 활발하게 처리되고 있음을 짐작할 수 있다.
 
 “외부 타입 정의 개수” 항목의 경우 Flow와 타입스크립트가 각각 라이브러리의 타입 정보를 저장하기 위해 관리하는 [flow-typed](https://github.com/flowtype/flow-typed) 와 [DefinitelyTyped](https://github.com/DefinitelyTyped/DefinitelyTyped) 저장소를 기준으로 했다. 라이브러리가 플랫폼이 해석할 수 있는 타입 정보를 제공하지 않는다면 사용자의 선택지는 두 가지다. 직접 타입 정보를 작성하는 것과 해당 라이브러리를 사용하지 않는 것이다. 두 선택지 모두 자명하게 불편함을 초래하므로 타입 정의의 수는 해당 플랫폼의 사용자 경험과 직결된다.
 
-타입스크립트와 Flow 모두 외부 저장소 대신 라이브러리 내부에 타입 정보를 직접 포함하는 방법을 제공하는데, “내부 타입 정의 개수” 항목은 이렇게 직접 포함된 타입 정의의 수를 의미한다. Flow의 경우 해당 용도로 사용되는 `.flow` 확장자를 가지며 내용이 비어 있지 않은 파일이 약 2천 개 정도 존재했다. 타입스크립트의 경우 Github 검색의 한계와 더불어 `node_modules` 파일을 전부 커밋한 저장소가 너무 많아 신뢰할만한 수를 얻기 어려웠지만, 다른 지표들로 미루어보아 내부 타입 정의의 수 역시 Flow보다 많을 것으로 추정한다.
+타입스크립트와 Flow 모두 외부 저장소 대신 라이브러리 내부에 타입 정보를 직접 포함하는 방법을 제공하는데, “내부 타입 정의 개수” 항목은 이렇게 직접 포함된 타입 정의의 수를 의미한다. Flow의 경우 해당 용도로 사용되는 `.flow` 확장자를 가지며 내용이 비어 있지 않은 파일이 약 2천 개 정도 존재했다. 타입스크립트의 경우 GitHub 검색의 한계와 더불어 `node_modules` 파일을 전부 커밋한 저장소가 너무 많아 신뢰할만한 수를 얻기 어려웠지만, 다른 지표들로 미루어보아 내부 타입 정의의 수 역시 Flow보다 많을 것으로 추정한다.
 
