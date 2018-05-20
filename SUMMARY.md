@@ -8,7 +8,7 @@
 * [1.0 들어가며](01-introducing-typescript/intro.md)
 * [1.1 정적 타입 분석](01-introducing-typescript/static-type-analysis.md)
 * [1.2 왜 타입스크립트인가](01-introducing-typescript/why-typescript.md)
-* [1.3 타입스크립트의 구성요소](01-introducing-typescript/parts-of-typescript.md)
+* [1.3 타입스크립트의 구성요소](01-introducing-typescript/elements-of-typescript.md)
 * [1.4 타입스크립트의 역사](01-introducing-typescript/history-of-typescript.md)
 
 ## 02 ECMAScript
@@ -60,10 +60,10 @@
 * [4.4 클래스](04-interface-and-class/classes.md)
 * [4.5 클래스 확장](04-interface-and-class/extending-classes.md)
 * 4.6 클래스 심화
-  * [4.6.1 스태틱 멤버](04-interface-and-class/classes-advanced/static-members.md)
-  * [4.6.2 접근 제어자](04-interface-and-class/classes-advanced/access-specifiers.md)
-  * [4.6.3 접근자](04-interface-and-class/classes-advanced/accessors.md)
-  * [4.6.4 추상 클래스](04-interface-and-class/classes-advanced/abstract-classes.md)
+  * [4.6.1 스태틱 멤버](04-interface-and-class/class-advanced/static-members.md)
+  * [4.6.2 접근 제어자](04-interface-and-class/class-advanced/access-specifiers.md)
+  * [4.6.3 접근자](04-interface-and-class/class-advanced/accessors.md)
+  * [4.6.4 추상 클래스](04-interface-and-class/class-advanced/abstract-classes.md)
 * [4.7 인터페이스와 클래스의 관계](04-interface-and-class/connecting-interface-and-class.md)
 * [4.8 맺으며](04-interface-and-class/outro.md)
 

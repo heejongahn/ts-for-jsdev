@@ -4,7 +4,7 @@ description: 자바스크립트 프로그램에서 가장 핵심적인 역할을
 
 # 3.5 함수
 
-### **함수의 타입**
+## **함수의 타입**
 
 함수의 타입을 결정하기 위해서는 다음 두 가지 정보가 필요하다.
 
@@ -43,7 +43,7 @@ function actuallyVoid(): number { }
 // error TS2355: A function whose declared type is neither 'void' nor 'any' must return a value.
 ```
 
-### **함수 값의 타입 표기**
+## **함수 값의 타입 표기**
 
 함수 타입의 값에 타입 표기를 붙이기 위해서는 화살표 함수 정의 문법과 비슷한 문법을 사용한다.
 
@@ -72,9 +72,9 @@ type SumFunction = (a: number, b: number) => number;
 const definitelySum: SumFunction = (a, b) => (a + b);
 ```
 
-### **기본 매개변수**
+## **기본 매개변수**
 
-ES6와 마찬가지로, 타입스크립트에서도 기본 매개변수 문법을 사용할 수 있다. 이 때 기본값은 
+ES6와 마찬가지로, 타입스크립트에서도 기본 매개변수 문법을 사용할 수 있다. 이 때 기본값은
 
 ```typescript
 매개변수명: 타입 = 기본값
@@ -90,7 +90,7 @@ greetings('Heejong'); // Hello, Heejong!
 greetings(); // Hello, stranger!
 ```
 
-### **선택 매개변수**
+## **선택 매개변수**
 
 많은 프로그래밍 언어는 함수 정의에 명시된 매개변수의 수보다 많거나 적은 수의 인자가 들어온 경우 에러를 뱉는다. 한편, 자바스크립트는 더 들어온 인자는 버리고, 덜 들어온 인자는 `undefined`가 들어온 것과 동일하게 취급한 후 어떻게든 함수를 실행하려 시도한다.
 
@@ -126,7 +126,7 @@ invalidFetchVideo('https://example.com');
 
 이 때 첫 번째 호출의 경우 인자가 `url` 매개변수의 값이라는 것이 명백하다. 한편 두 번째 호출에서는 `'https://example.com'` 이라는 값이 선택매개변수인 `subtitleUrl`의 값으로 쓰인건지, 또는 `url`의 값으로 쓰인 건지 모호하다. 따라서 타입스크립트는 이런 식의 함수 정의를 만나면 오류를 발생시킨다.
 
-### **함수 오버로딩**
+## **함수 오버로딩**
 
 자바스크립트에서는 한 함수가 여러 쌍의 매개변수-반환 타입 쌍을 갖는 경우가 매우 흔하다. 이런 함수의 타입을 정의할 수 있게 하고자 타입스크립트는 함수 오버로딩\(function overloading\)을 지원한다.
 
@@ -183,7 +183,7 @@ const str = double('ab'); // string
 const arr = double([true, false]); // boolean[]
 ```
 
-### **This 타입**
+## **This 타입**
 
 앞서 2장에서 언급했지만, 자바스크립트 함수 내부에서의 `this` 값은 함수가 정의되는 시점이 아닌 **실행되는 시점**에 결정된다. 이런 특성은 함수 내부에서 `this` 의 타입을 추론하는 일을 매우 어렵게 만든다. 타입스크립트는 이런 어려움을 해결하기 위해 함수 내에서의 `this` 타입을 명시할 수 있는 수단을 제공한다.
 
@@ -206,7 +206,7 @@ const onClick: Handler = function(event, cb) {
 }
 ```
 
-만약 `this`의 타입을 `void`로 명시한다면 함수 내부에서 `this`에 접근하는 일 자체를 막을 수 있다. 
+만약 `this`의 타입을 `void`로 명시한다면 함수 내부에서 `this`에 접근하는 일 자체를 막을 수 있다.
 
 ```typescript
 interface NoThis {

@@ -10,14 +10,14 @@ description: 인터섹션 타입을 이용해 “여러 경우에 모두 해당�
 
 ```typescript
 type Programmer = { favoriteLanguage: string };
-const programmer: Programmer = { favoriateLanguage: 'TypeScript' };
+const programmer: Programmer = { favoriteLanguage: 'TypeScript' };
 ```
 
 그리고 맥주를 좋아하는 사람의 타입과 값을 다음과 같이 정의했다.
 
 ```typescript
 type BeerLover = { favoriteBeer: string };
-const beerLover: BeerLover = { favoriateBeer: 'Imperial Stout' };
+const beerLover: BeerLover = { favoriteBeer: 'Imperial Stout' };
 ```
 
 그렇다면, **맥주를 좋아하는 프로그래머의 타입**은 어떻게 나타낼 수 있을까? 물론 모든 필드를 다 적어 새로운 타입을 정의하는 식의 단순한 접근도 가능하다.
@@ -26,7 +26,7 @@ const beerLover: BeerLover = { favoriateBeer: 'Imperial Stout' };
 type BeerLovingProgrammer = { favoriteLanguage: string; favoriteBeer: string; };
 const AhnHeejong: BeerLovingProgrammer = { 
   favoriteLanguage: 'TypeScript',
-  favoriateBeer: 'Imperial Stout',
+  favoriteBeer: 'Imperial Stout',
 };
 ```
 
@@ -64,8 +64,9 @@ type Awesome = Programmer & BeerLover & CatLover;
 
 ```typescript
 type BeerLovingProgrammer
-  = Programmaer
+  = Programmer
   & BeerLover;
+  
 type BeerLovingProgrammer2 =
   & Programmer
   & BeerLover;
