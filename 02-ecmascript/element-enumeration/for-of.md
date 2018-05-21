@@ -18,7 +18,8 @@ for (const lang of languages) {
 비슷하게 생겼지만, `for-of` 문법은 기존의 `for-in` 문법과 비교했을 때 아래와 같은 차이점을 갖고 있다.
 
 * 순회 순서가 항상 같을 것이 보장된다.
-* `for (const elem in obj) { ... }` 에서 `elem`은 항상 문자열인 반면, `for (const elem in arr) { ... }` 의 elem은 임의의 타입일 수 있다.
+* `for (const elem in arr) { ... }` 의 `elem`에는 **원소의 키에 해당하는 문자열**이 바인딩 된다.  한편 `for (const elem of arr) { ... }` 의 `elem`에는 **원소의 실제 값**이 바인딩 된다.
+  * 예를 들어, `arr`가 함수의 배열\(`[ () => 42, () => true]`\)이라면,  `for-in`의 `elem`에는 각 함수의 인덱스 문자열\(`"0"`, `"1"`\)이 바인딩 된다. `for-of` 문법의 `elem`에는 실제 함수값\(`() => 42`, `() => true`\)이 바인딩 된다.
 
 또한 `forEach`와 달리 `break` / `continue` 등의 키워드로 실행 흐름을 제어할 수 있다.
 

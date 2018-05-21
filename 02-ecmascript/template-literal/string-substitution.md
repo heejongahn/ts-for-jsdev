@@ -24,7 +24,7 @@ function beforeES6(firstName, lastName) {
   console.log('My name is ' + firstName + ' '  + lastName +'!');
 }
 function sinceES6(firstName, lastName) {
-  console.log(`My name is ${firstName} {lastName}!`);
+  console.log(`My name is ${firstName} ${lastName}!`);
 }
 beforeES6('Heejong', 'Ahn'); // My name is Heejong Ahn!
 sinceES6('Heejong', 'Ahn'); // My name is Heejong Ahn!
