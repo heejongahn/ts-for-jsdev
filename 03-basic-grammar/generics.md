@@ -10,10 +10,10 @@ description: 제너릭을 이용해 여러 타입에 대해 동일한 규칙을 
 
 ```typescript
 function getFirstElem(arr) {
-  if (!Array.isArray(arr) {
+  if (!Array.isArray(arr)) {
     throw new Error('getFirstElemOrNull: Argument is not array!');
   }
-  if (arr.length === 0 {
+  if (arr.length === 0) {
     throw new Error('getFirstElemOrNull: Argument is an empty array!');
   } 
   return arr[0] ? arr[0] : null;
@@ -28,7 +28,7 @@ function getFirstElem(arr) {
 function getFirstElem(arr: string[]): string;
 function getFirstElem(arr: number[]): number;
 function getFirstElem(arr) {
-  if (!Array.isArray(arr) {
+  if (!Array.isArray(arr)) {
     throw new Error('getFirstElemOrNull: Argument is not array!');
   }
   if (arr.length === 0) {
