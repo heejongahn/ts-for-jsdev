@@ -69,7 +69,14 @@
 
 ## 05 타입의 호환성
 
-* [들어가며 \(6월 4일 공개\)](05-type-compatibility/intro.md)
+* [5.0 들어가며](05-type-compatibility/intro.md)
+* [5.1 기본 타입의 호환성](05-type-compatibility/primitive-types.md)
+* [5.2 객체 타입의 호환성](05-type-compatibility/objects.md)
+* [5.3 함수 타입의 호환성](05-type-compatibility/functions.md)
+* [5.4 클래스의 호환성](05-type-compatibility/classes.md)
+* [5.5 제너릭의 호환성](05-type-compatibility/generics.md)
+* [5.6 열거형의 호환성](05-type-compatibility/enums.md)
+* [5.7 맺으며](05-type-compatibility/outro.md)
 
 ## 06 타입 시스템 심화
 
