@@ -44,8 +44,8 @@ class BarkingDog {
     console.log(`${barkingSound}!`);
   }
 }
-const barkingDog: BarkingDog = new BarkingDog('월');
-barkingDog.bark(); // 월!
+
+const barkingDog: BarkingDog = new BarkingDog('월'); // 월!
 ```
 
 생성자의 함수 시그니쳐와 맞지 않는 타입의 인스턴스화를 시도할 시 에러가 발생한다.

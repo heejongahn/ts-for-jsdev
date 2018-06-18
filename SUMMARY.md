@@ -59,7 +59,7 @@
 * [4.3 인터페이스 확장](04-interface-and-class/extending-interfaces.md)
 * [4.4 클래스](04-interface-and-class/classes.md)
 * [4.5 클래스 확장](04-interface-and-class/extending-classes.md)
-* 4.6 클래스 심화
+* [4.6 클래스 심화](04-interface-and-class/class-advanced/README.md)
   * [4.6.1 스태틱 멤버](04-interface-and-class/class-advanced/static-members.md)
   * [4.6.2 접근 제어자](04-interface-and-class/class-advanced/access-specifiers.md)
   * [4.6.3 접근자](04-interface-and-class/class-advanced/accessors.md)
@@ -80,7 +80,13 @@
 
 ## 06 타입 시스템 심화
 
-* [들어가며 \(6월 18일 공개\)](06-type-system-deepdive/intro.md)
+* [6.0 들어가며](06-type-system-deepdive/intro.md)
+* [6.1 타입 좁히기](06-type-system-deepdive/type-narrowing.md)
+* [6.2 타입 추론](06-type-system-deepdive/type-inference.md)
+* [6.3 타입 단언](06-type-system-deepdive/type-assertion.md)
+* [6.4 집합으로서의 타입](06-type-system-deepdive/types-as-sets.md)
+* [6.5 서로소 유니온 타입](06-type-system-deepdive/disjoint-union-type.md)
+* [6.6 맺으며](06-type-system-deepdive/outro.md)
 
 ## 07 고급 타입
 

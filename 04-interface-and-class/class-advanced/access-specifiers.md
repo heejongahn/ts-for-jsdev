@@ -13,9 +13,9 @@
 ```typescript
 // implicit public member
 class Triangle {
-  public vertices: number;
+  vertices: number;
   
-  public constructor() {
+  constructor() {
     this.vertices = 3;
   }
 }

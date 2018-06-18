@@ -14,7 +14,7 @@ function notOk() {
 notOk(); // TypeError: Assignment to constant variable.
 ```
 
-`let`과 마찬가지로 `const`으로 선언한 변수는 호이스팅 되지 않는다.
+`let`과 마찬가지로 `const`으로 선언한 변수 또한 정의문이 평가되기 전 접근될 경우 `ReferenceError`를 발생시킨다.
 
 ```javascript
 function foo() {
