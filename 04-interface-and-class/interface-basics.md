@@ -94,8 +94,8 @@ inteface User {
   readonly height: number;
   /* ... */
 }
-const user: MyReponse<User> = await getUserApiCall(userId);
-user.name; // 타입 시스템은 user.name이 string임을 알 수 있다.
+const res: MyReponse<User> = await getUserApiCall(userId);
+res.data.name; // 타입 시스템은 res.data.name이 string임을 알 수 있다.
 ```
 
 함수 인터페이스의 정의에도 제너릭을 사용 할 수 있다. 이 경우 타입 변수는 매개변수의 앞에 적는다.
