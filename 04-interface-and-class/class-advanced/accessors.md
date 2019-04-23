@@ -42,7 +42,7 @@ class Shape {
   constructor (public vertices: number) { }
   get vertices(): number {
     console.log('Vertices getter called.');
-    return 3;
+    return this.vertices;
   }
 }
 const triangle: Shape = new Shape(3);
