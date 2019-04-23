@@ -40,7 +40,7 @@ interface GetUserName {
   (user: User): string;
 }
 const getUserName: GetUserName = function (user) {
-  return user.name;
+  return user.data.name;
 };
 ```
 
