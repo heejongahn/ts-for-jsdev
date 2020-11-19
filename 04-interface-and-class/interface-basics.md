@@ -94,7 +94,8 @@ inteface User {
   readonly height: number;
   /* ... */
 }
-const user: MyReponse<User> = await getUserApiCall(userId);
+const response: MyReponse<User> = await getUserApiCall(userId);
+const user: User = response.data
 user.name; // 타입 시스템은 user.name이 string임을 알 수 있다.
 ```
 
